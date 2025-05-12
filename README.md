@@ -1,6 +1,10 @@
 This is the noughts and crosses game where two players play against one another.
 The objective of this game is to get three symbols on the same line. Whether it is horizontal, vertical, or diagonal.
 
+
+## Live Demo:
+[noughts-and-crosses](https://noughts-and-crosses-six.vercel.app/)
+
 ## Getting Started
 
 1. Install the packages:
