@@ -15,11 +15,7 @@ export const useGameStore = create<GameLogState>((set, get) => ({
   winner: null,
   draw: false,
 
-  updateLog: (index) => {
+  updateLog: (index) => {},
 
-  },
-
-  reset: () => {
-
-  }
+  reset: () => {},
 }));

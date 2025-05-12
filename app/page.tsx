@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useGameStore } from "../stores/GameStore";
+import { useGameStore } from "@/stores/GameStore";
 import Modal from "./components/Modal";
 import { TrophyIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import GameBoard from "./GameBoard";

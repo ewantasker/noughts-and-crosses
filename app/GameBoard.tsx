@@ -1,9 +1,7 @@
-import { useGameStore } from "../stores/GameStore";
-
+import { useGameStore } from "@/stores/GameStore";
 
 export default function GameBoard() {
-  const { board, makeMove } =
-    useGameStore();
+  const { board, makeMove } = useGameStore();
   return (
     <div className="grid grid-cols-[auto_repeat(3,_10.5rem)] grid-rows-[auto_repeat(3,_10.5rem)] gap-2 items-center">
       {/* Top column labels */}
@@ -48,6 +46,5 @@ export default function GameBoard() {
         </button>
       ))}
     </div>
-
   );
 }
