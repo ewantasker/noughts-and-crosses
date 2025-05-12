@@ -1,4 +1,4 @@
-import { useGameStore } from "@/stores/GameStore";
+import { useGameStore } from "@/app/GameStore";
 
 export default function GameBoard() {
   const { board, makeMove } = useGameStore();
