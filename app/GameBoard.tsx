@@ -1,4 +1,4 @@
-import { useGameStore } from "@/stores/GameStore";
+import { useGameStore } from "../stores/GameStore";
 
 
 export default function GameBoard() {
